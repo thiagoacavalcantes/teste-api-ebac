@@ -25,4 +25,12 @@ Cypress.Commands.add('token', (email, senha) => {
           }, 
           failOnStatusCode: false
     })
+    
  })
+
+ //Cypress.Commands.add('editarCadastro', () => {
+    //cy.request({
+        //method: 'PUT'
+       // header
+   // })
+ //})
